@@ -509,3 +509,29 @@ footer p {
         height: 380px;
     }
 }
+/* WHATSAPP FLOTANTE */
+
+.whatsapp-flotante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    background-color: #25D366;
+    color: white;
+
+    padding: 14px 20px;
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+
+    z-index: 1000;
+
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-flotante:hover {
+    transform: scale(1.07);
+}
